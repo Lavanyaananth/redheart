@@ -1,0 +1,94 @@
+body{
+    background: #fff;
+    font-family: 'Open Sans', sans-serif;
+}
+.bannerImageBlock{
+    height: 250px;
+    background: #e25878;
+    color: #fff;
+    
+}
+ .bannerImageContent > h1{
+    font-size: 42px;
+     text-align: center;
+     padding: 30px 10px;
+     font-weight: 100;
+}
+.mainTabs{
+    font-size: 16px;
+   
+}
+.mainTabs > .col{
+     border: 1px solid #d3d3d3;
+    padding: 20px;
+}
+.cardRow{
+    padding: 50px ;
+    cursor: pointer;
+}
+.card-title{
+    font-size: 18px;
+    font-weight: 300;
+    color: #d3d3d3;
+    line-height: 30px;
+}
+.card-img-top{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+.card:hover{
+    -webkit-box-shadow: 0 22px 43px rgba(0,0,0,0.15);
+        transform: translateY(-4px);
+}
+#cardHead li{
+    display: none;
+    list-style: none;
+}
+#loadMore{
+  width: 300px;
+    background-color: #e25878;
+    border-radius: 5px;
+    border-color: #e25878;
+    padding: 10px;
+    margin: 50px;
+    color: #fff;
+    border-style: none;
+}
+.signinBtn{
+    background-color: #fff;
+    border-color: #e25878;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 300;
+}
+.signinBtn:hover{
+    background-color: #e25878;
+    border-color: #fff;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+}
+#loadMore:hover{
+    cursor: pointer;
+}
+#loadMore:focus{
+    outline: none;
+}
+
+.buttonBlock{
+        margin-left: auto;
+    margin-right: auto;
+    width: 340px;
+}
+.footerArea{
+    padding-top: 50px;
+    border-top: 1px solid #d3d3d3;
+}
+.footer-info > p{
+   text-align: center;
+    font-size: 16px;
+    font-weight: 300;
+    color: #ababab;
+    padding-bottom: 10px;
+}
